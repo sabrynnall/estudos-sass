@@ -1,0 +1,13 @@
+$primary: #333;
+$secondary: #CCC;
+
+.header {
+    font: 3em Arial;
+    & &-logo {
+        color: $secondary;
+    }
+
+    & &-nav {
+        background: $secondary;
+    }
+}

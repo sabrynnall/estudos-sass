@@ -1,0 +1,46 @@
+$primary: #29184A;
+$secondary: #0EAFD2;
+$dark: #1E0F3C;
+$clear: #FFF;
+$padding: 20px;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../imagens/bg.jpg) no-repeat fixed;
+}
+
+.header {
+    width: 100%;
+    padding: $padding;
+    background: $primary;
+    box-sizing: border-box;
+    & &-img {
+        width: 150px;
+    }
+    & &-nav {
+        float: right;
+        margin-top: $padding;
+
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                padding: $padding;
+            }
+        }
+    }
+
+    & &-link {
+        color: $secondary;
+        font-size: 1.5em;
+        position: absolute;
+        transition: all 0.5s;
+        &:hover {
+            margin-top: -5px;
+        }
+    }
+}

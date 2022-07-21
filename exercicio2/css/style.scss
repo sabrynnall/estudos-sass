@@ -1,0 +1,37 @@
+$primary: #333;
+$secondary: #666;
+$red: #F00;
+$font: Arial;
+
+main {
+    h1 {
+        font: 2em $font;
+        color: $primary;
+    }
+    p {
+        font: 1.2em $font;
+        color: $secondary;
+    }
+}
+
+div {
+    h1 {
+        font: 2.5em $font;
+        color: $secondary;
+    }
+
+    p {
+        font: 1em $font;
+        &:hover {
+            color: $red;
+        }
+    }
+
+    a {
+        color: $primary;
+        &:hover {
+            color: $red;
+        }
+    }
+
+}

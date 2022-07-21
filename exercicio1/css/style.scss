@@ -1,0 +1,25 @@
+$primary: #333;
+$secondary: #666;
+$bg: #CCC;
+$font1: Verdana, Tahoma;
+$size1: 2.5em;
+$size2: 1.5em;
+
+body {
+    background: $bg;
+}
+
+h1 {
+    color: $primary;
+    font: $size1 $font1;
+}
+
+h1 {
+    color: $primary;
+    font: $size2 $font1;
+}
+
+p {
+    color: $secondary;
+    font: 16px $font1;
+}
