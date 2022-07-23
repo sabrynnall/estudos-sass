@@ -27,7 +27,7 @@ body {
     background: $primary;
     box-sizing: border-box;
     & &-img {
-        width: 150px;
+        width: 90px;
     }
     & &-nav {
         float: right;
@@ -37,7 +37,7 @@ body {
             list-style: none;
             li {
                 display: inline-block;
-                padding: $padding;
+                padding: 10px $padding;
             }
         }
     }
@@ -57,6 +57,7 @@ body {
     text-align: center;
     & &-title {
         @include texto($font, 2em, center, 30px, $secondary);
+        margin: 20px;
     }
 }
 

@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
 }
 .header .header-img {
-  width: 150px;
+  width: 90px;
 }
 .header .header-nav {
   float: right;
@@ -25,7 +25,7 @@ body {
 }
 .header .header-nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px 20px;
 }
 .header .header-link {
   color: #0EAFD2;
@@ -45,6 +45,7 @@ body {
   text-align: center;
   line-height: 30px;
   color: #0EAFD2;
+  margin: 20px;
 }
 
 .btn {
