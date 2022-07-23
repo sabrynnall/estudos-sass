@@ -37,4 +37,103 @@ body {
   margin-top: -5px;
 }
 
+.banner {
+  text-align: center;
+}
+.banner .banner-title {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #0EAFD2;
+}
+
+.btn {
+  font: 1.5em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #29184A;
+  background: #0EAFD2;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background: #FFF;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.autor {
+  background: #1E0F3C;
+}
+.autor .autor-img {
+  width: 150px;
+  float: left;
+  margin: 20px;
+}
+.autor h1 {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #0EAFD2;
+  font-weight: bold;
+}
+.autor p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: justify;
+  line-height: 30px;
+  color: #FFF;
+  margin: 20px;
+}
+
+.curso {
+  background: #0EAFD2;
+}
+.curso h1 {
+  font: 2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 20px;
+  color: #29184A;
+  font-weight: bold;
+}
+.curso p {
+  font: 1.2em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #FFF;
+  margin: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+.footer p {
+  font: 1em Quicksand, Arial, Tahoma;
+  text-align: center;
+  line-height: 30px;
+  color: #FFF;
+}
+.footer .footer-img {
+  width: 150px;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
